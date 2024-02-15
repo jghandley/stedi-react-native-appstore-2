@@ -1,6 +1,8 @@
+/*
 const getSpikesFromAccelerometer = ({recentAccelerationData, threshold, previousValue, previousHighPointTime, wasGoingUp}) =>{
     console.log("Spike Calculator Called");
     const overThresholdSpikes = [];//the acceleration data, often look like the following, can you find the spike(s) over the default threshold
+*/
 /*
 [
 {"value": 9.88,
@@ -39,6 +41,7 @@ const getSpikesFromAccelerometer = ({recentAccelerationData, threshold, previous
      -------
      */
 
+/*     
     let goingUp=wasGoingUp;//when we stop going up, we have hit a spike
     //let previousValue = 0;//this is not a real value
     if (previousHighPointTime===0 && recentAccelerationData.length > 0){//this should only happen the first time this function is called during an exercise, since we have no spikes yet
@@ -74,3 +77,4 @@ const getSpikesFromAccelerometer = ({recentAccelerationData, threshold, previous
 }
 
 export default getSpikesFromAccelerometer;
+*/
